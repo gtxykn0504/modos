@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mod.zheary.com</id>
+    <title>MOD OS +</title>
+    <updated>2024-05-19T05:34:58.298Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://mod.zheary.com"/>
+    <link rel="self" href="https://mod.zheary.com/atom.xml"/>
+    <subtitle>MOD OS +一个用mid+制作的简易“系统”</subtitle>
+    <logo>https://mod.zheary.com/images/avatar.png</logo>
+    <icon>https://mod.zheary.com/favicon.ico</icon>
+    <rights>All rights reserved 2024, MOD OS +</rights>
+    <entry>
+        <title type="html"><![CDATA[简介]]></title>
+        <id>https://mod.zheary.com/jian-jie/</id>
+        <link href="https://mod.zheary.com/jian-jie/">
+        </link>
+        <updated>2024-03-09T08:25:26.000Z</updated>
+        <content type="html"><![CDATA[<p>MOD OS +一个用**mid+**制作的简易“系统”，就像个毛坯房。在MOD OS +中，有“计算器”，&quot;小游戏-猜一猜”，朗读，“翻译”等功能与基础系统软件（例如VAM）。同时我们也欢迎大家来改编这个简易“系统”。</p>
+<blockquote>
+<p>mid+下载链接：http://mindplus.cc/</p>
+</blockquote>
+<h1 id="特殊版本">特殊版本</h1>
+<p>MOD OS +有两个特殊版本：「MOD OS +S」「MOD OS + H」<br>
+MOD OS + S一个用Scratch制作的简易“系统”，是MOD OS+的特殊版本，同时我们也欢迎大家来改编这个简易“系统”。更多内容见【MOD OS+特殊版本 支持】网中。<br>
+MOD OS + H一个HTML的简易“系统”，是MOD OS+的特殊版本，同时我们也欢迎大家来改编这个简易“系统”。更多内容见【MOD OS+特殊版本 支持】网中。</p>
+<h1 id="下载使用注意点">下载/使用注意点</h1>
+<ol>
+<li>
+<p>请根据不同版本使用对应方式打开软件</p>
+</li>
+<li>
+<p>Mod os +就像个毛坯房，所以大家可以改编这个简易软件。</p>
+</li>
+<li>
+<p>在使用之前，请观看开发者文档</p>
+</li>
+<li>
+<p>如果有发现bug，你可以打开mod os +支持进行反馈</p>
+</li>
+</ol>
+<h1 id="版本号说明">版本号说明</h1>
+<p><img src="https://bu.dusays.com/2024/03/09/65ec1e3f76f1b.png" alt="mod os版本号.png" loading="lazy"><br>
+在MOD OS+中 我们将按照不同更新内容，对新版本进行设定版本号。（自从MOD OS+6.0版本，我们将记录更新说明）</p>
+<p>而MOD OS+ S与MOD OS+ H不会在主版本号之后添加副版本号。更新内容将在说明文档中。（见【特殊版本支持】网中）</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文库]]></title>
+        <id>https://mod.zheary.com/library/</id>
+        <link href="https://mod.zheary.com/library/">
+        </link>
+        <updated>2024-03-08T08:31:58.000Z</updated>
+        <content type="html"><![CDATA[<p>在这里您可以查看MOD OS+的开发者文档。如果您想改变MOD OS+，成为它的开发者，您可以观看【开发者文档】【设计】，或者反馈bug，从而获得帮助。如果你是MOD OS+的普通用户，您可以看【使用说明】，帮助您使用MOD OS+.同时，如果MOD OS+有重大安全问题会在本网站的【安全性说明】文档中说明记载。在【SP】中，有许多“脑洞”，它们可能没有正式的运用在MOD OS +中，未来可能会用在MOD OS+中，可以参考研究。</p>
+<div class="post-body">
+   <div id="links">
+      <style>
+         .links-content{
+         margin-top:1rem;
+         }
+         .link-navigation::after {
+         content: " ";
+         display: block;
+         clear: both;
+         }
+         .card {
+         width: 45%;
+         font-size: 1rem;
+         padding: 10px 20px;
+         border-radius: 4px;
+         transition-duration: 0.15s;
+         margin-bottom: 1rem;
+         display:flex;
+         }
+         .card:nth-child(odd) {
+         float: left;
+         }
+         .card:nth-child(even) {
+         float: right;
+         }
+         .card:hover {
+         transform: scale(1.1);
+         box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);
+         }
+         .card a {
+         border:none;
+         }
+         .card .ava {
+         width: 3rem!important;
+         height: 3rem!important;
+         margin:0!important;
+         margin-right: 1em!important;
+         border-radius:4px;
+         }
+         .card .card-header {
+         font-style: italic;
+         overflow: hidden;
+         width: 100%;
+         }
+         .card .card-header a {
+         font-style: normal;
+         color: #2bbc8a;
+         font-weight: bold;
+         text-decoration: none;
+         }
+         .card .card-header a:hover {
+         color: #d480aa;
+         text-decoration: none;
+         }
+         .card .card-header .info {
+         font-style:normal;
+         color:#a3a3a3;
+         font-size:14px;
+         min-width: 0;
+         overflow: hidden;
+         white-space: nowrap;
+         }
+      </style>
+      <div class="links-content">
+         <div class="link-navigation">
+            <div class="card">
+               <div class="card-header">
+                  <div>
+                 <a href="https://mod.zheary.com/tag/doc/">文档</a>
+                  </div>
+                  <div class="info">您可以在这里阅读文章，掌握所需的开发技能</div>
+               </div>
+            </div>
+            <div class="card">
+               <div class="card-header">
+                  <div>
+                      <a href="https://mod.zheary.com/tag/instruction/">使用教程</a>
+                  </div>
+                  <div class="info">了解如何更好的使用Mod os+</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="post-body">
+   <div id="links">
+      <style>
+         .links-content{
+         margin-top:1rem;
+         }
+         .link-navigation::after {
+         content: " ";
+         display: block;
+         clear: both;
+         }
+         .card {
+         width: 45%;
+         font-size: 1rem;
+         padding: 10px 20px;
+         border-radius: 4px;
+         transition-duration: 0.15s;
+         margin-bottom: 1rem;
+         display:flex;
+         }
+         .card:nth-child(odd) {
+         float: left;
+         }
+         .card:nth-child(even) {
+         float: right;
+         }
+         .card:hover {
+         transform: scale(1.1);
+         box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);
+         }
+         .card a {
+         border:none;
+         }
+         .card .ava {
+         width: 3rem!important;
+         height: 3rem!important;
+         margin:0!important;
+         margin-right: 1em!important;
+         border-radius:4px;
+         }
+         .card .card-header {
+         font-style: italic;
+         overflow: hidden;
+         width: 100%;
+         }
+         .card .card-header a {
+         font-style: normal;
+         color: #2bbc8a;
+         font-weight: bold;
+         text-decoration: none;
+         }
+         .card .card-header a:hover {
+         color: #d480aa;
+         text-decoration: none;
+         }
+         .card .card-header .info {
+         font-style:normal;
+         color:#a3a3a3;
+         font-size:14px;
+         min-width: 0;
+         overflow: hidden;
+         white-space: nowrap;
+         }
+      </style>
+      <div class="links-content">
+         <div class="link-navigation">
+            <div class="card">
+               <div class="card-header">
+                  <div>
+                 <a href="https://mod.zheary.com/tag/design/">设计</a>
+                  </div>
+                  <div class="info">通过完善设计规范，增加使用者体验感</div>
+               </div>
+            </div>
+        <div class="card">
+   <div class="card-header">
+      <div>
+         <a href="https://mod.zheary.com/tag/safe/">安全性</a>
+      </div>
+      <div class="info">居安思危，提升风险意识</div>
+   </div>
+</div>
+            <div class="card">
+               <div class="card-header">
+                  <div>
+                      <a href="https://mod.zheary.com/tag/sp/">SP</a>
+                  </div>
+                  <div class="info">新奇的脑洞，奇妙的想法</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[下载]]></title>
+        <id>https://mod.zheary.com/download/</id>
+        <link href="https://mod.zheary.com/download/">
+        </link>
+        <updated>2024-03-03T08:33:19.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>请在下载前查看“开发者文档”！</p>
+</blockquote>
+<blockquote>
+<p>6.0之前的版本无法下载，链接会显示无效！</p>
+</blockquote>
+<h1 id="660">6.6.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1TY641dVBxcWPcCr4eHIPaQ?pwd=k450">https://pan.baidu.com/s/1TY641dVBxcWPcCr4eHIPaQ?pwd=k450</a><br>
+提取码：k450<br>
+更新说明：修复了计算器的反馈内容会被变量[用户名]挡住</p>
+<h1 id="650">6.5.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1YWr6-Td4HgGJcxoGFjmt_g">https://pan.baidu.com/s/1YWr6-Td4HgGJcxoGFjmt_g</a><br>
+提取码：k450</p>
+<p>更新说明：对角色，精灵名，舞台（桌面）与造型等设计元素进行规范，详见：</p>
+<p><a href="https://flowus.cn/450dc7f1-1232-42e1-8483-5aa082a6ba00">设计-MOD OS+6.5.0设计说明</a></p>
+<h1 id="640">6.4.0</h1>
+<p>内部版本，不公布</p>
+<h1 id="630">6.3.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1tHMQLdIc_L2bYhY2J9QWaA?pwd=k450">https://pan.baidu.com/s/1tHMQLdIc_L2bYhY2J9QWaA?pwd=k450</a><br>
+提取码：k450</p>
+<p>更新说明：升级-VAM2.5</p>
+<h1 id="620">6.2.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1jprXTnpZFB5aytPA9HItTQ?pwd=k450">https://pan.baidu.com/s/1jprXTnpZFB5aytPA9HItTQ?pwd=k450</a><br>
+提取码：k450</p>
+<p>更新说明：升级-VAM2.0</p>
+<h1 id="610">6.1.0</h1>
+<p>内部版本，不公布</p>
+<h1 id="600">6.0.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1c4puGrc5SfxJNDXP-5Chcw">https://pan.baidu.com/s/1c4puGrc5SfxJNDXP-5Chcw</a><br>
+提取码：k450</p>
+<p>更新说明：添加了新功能-VAM</p>
+<h1 id="592">5.9.2</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1aDaYyThxFLnSraQiyrVpNw?pwd=mod5">https://pan.baidu.com/s/1aDaYyThxFLnSraQiyrVpNw?pwd=mod5</a></p>
+<p>提取码：mod5</p>
+<h1 id="591">5.9.1</h1>
+<p>内部版本，不公布</p>
+<h1 id="58">5.8</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1n1YpJ4yeFrm7yRvhgqG-EA?pwd=mod5">https://pan.baidu.com/s/1n1YpJ4yeFrm7yRvhgqG-EA?pwd=mod5</a></p>
+<p>提取码：mod5</p>
+<h1 id="57">5.7</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1Fvhvd1TYQSCTJBpzPdpWyA?pwd=mod5">https://pan.baidu.com/s/1Fvhvd1TYQSCTJBpzPdpWyA?pwd=mod5</a></p>
+<p>提取码：mod5</p>
+<h1 id="56">5.6</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1ZjLnNs_wI902JMEk5q7hDg?pwd=mod5">https://pan.baidu.com/s/1ZjLnNs_wI902JMEk5q7hDg?pwd=mod5</a></p>
+<p>提取码：mod5</p>
+<h1 id="55">5.5</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1LUxAR9sqZ7Sn8OWZoCRzRA?pwd=mod5">https://pan.baidu.com/s/1LUxAR9sqZ7Sn8OWZoCRzRA?pwd=mod5</a></p>
+<p>提取码：mod5</p>
+<h1 id="54">5.4</h1>
+<p>内测版本，不公布</p>
+<h1 id="53">5.3</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1UI8t0C928DVkP5WsUfLe_w?pwd=mod5">https://pan.baidu.com/s/1UI8t0C928DVkP5WsUfLe_w?pwd=mod5</a></p>
+<p>提取码：mod5</p>
+<h1 id="52">5.2</h1>
+<p>内测版本，不公布</p>
+<h1 id="51">5.1</h1>
+<p>内测版本，不公布</p>
+<h1 id="50">5.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1rjvLpOFDhA4Ju7v7J8IjFQ?pwd=mod5">https://pan.baidu.com/s/1rjvLpOFDhA4Ju7v7J8IjFQ?pwd=mod5</a></p>
+<p>提取码：mod5</p>
+<h1 id="45">4.5</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1oHwYcsZZHNmS-Movdf4dew?pwd=mod5">https://pan.baidu.com/s/1oHwYcsZZHNmS-Movdf4dew?pwd=mod5</a></p>
+<p>提取码：mod5</p>
+<h1 id="40">4.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1lN_Z1d_Pb1b6dy8DMAC5DA?pwd=mod5">https://pan.baidu.com/s/1lN_Z1d_Pb1b6dy8DMAC5DA?pwd=mod5</a></p>
+<p>提取码：mod5</p>
+<h1 id="30">3.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1358Ed1dzUsuTJq1IfAiXag?pwd=mod5">https://pan.baidu.com/s/1358Ed1dzUsuTJq1IfAiXag?pwd=mod5</a></p>
+<p>提取码：mod5</p>
+<h1 id="20">2.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/11wyddPEyKbg_i1olvGT0Pg?pwd=mod5">https://pan.baidu.com/s/11wyddPEyKbg_i1olvGT0Pg?pwd=mod5</a></p>
+<p>提取码：mod5</p>
+<h1 id="10">1.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1VsSOZ2Z4yGlapJxrpf4KZQ?pwd=mod5">https://pan.baidu.com/s/1VsSOZ2Z4yGlapJxrpf4KZQ?pwd=mod5</a></p>
+<p>提取码：mod5</p>
+<p>链接：<a href="https://pan.baidu.com/s/1TerUAcWjMdm2gwB1eXetkw?pwd=k450">https://pan.baidu.com/s/1TerUAcWjMdm2gwB1eXetkw?pwd=k450</a><br>
+提取码：k450</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[支持与反馈]]></title>
+        <id>https://mod.zheary.com/support/</id>
+        <link href="https://mod.zheary.com/support/">
+        </link>
+        <updated>2024-03-02T09:30:12.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="反馈">反馈</h1>
+<blockquote>
+<p><strong>什么有问题了？请反馈给我们吧！</strong></p>
+</blockquote>
+<h2 id="1编写反馈内容">1.编写反馈内容</h2>
+<ol>
+<li>系统问题的反馈格式：名字+版本号+反馈内容</li>
+<li>网站问题（错别字，安全问题）的反馈格式：名字+反馈内容（正文要包含问题页面链接）</li>
+</ol>
+<h2 id="2发送邮箱">2.发送邮箱</h2>
+<p>发送上方文字至 <a href="mailto:zh@zheary.com">mailto:zh@zheary.com</a> 邮箱标题注明Mod os+反馈</p>
+<h2 id="3如果你可以帮助我们">3.如果你可以帮助我们</h2>
+<p>如果你已经解决这个问题，请在反馈内容上写上你的mail</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[特殊版本下载]]></title>
+        <id>https://mod.zheary.com/download-sp/</id>
+        <link href="https://mod.zheary.com/download-sp/">
+        </link>
+        <updated>2024-03-01T08:34:16.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>S代表MOD OS+ S，H代表MOD OS+ H。请在下载前，观看版本说明/更新内容</p>
+</blockquote>
+<h1 id="置顶版本说明更新内容链接">置顶：版本说明/更新内容链接</h1>
+<h2 id="h版本">H版本：</h2>
+<p><a href="https://flowus.cn/6f776f21-f986-46eb-9519-4e33ce0d0c67">H-MOD OS+ H版本说明</a></p>
+<h2 id="s版本">S版本：</h2>
+<p><a href="https://flowus.cn/a250d2ae-fbb6-414b-a2f4-a109bd14bd3b">S-MOD OS+ S版本说明</a></p>
+<h1 id="h20">H2.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1JaYf0sdTIjmbbLyv5ryJJQ?pwd=k450">https://pan.baidu.com/s/1JaYf0sdTIjmbbLyv5ryJJQ?pwd=k450</a><br>
+提取码：k450</p>
+<h1 id="s20">S2.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1zUD7sIBd4an-ZhVIKoUVYA?pwd=k450">https://pan.baidu.com/s/1zUD7sIBd4an-ZhVIKoUVYA?pwd=k450</a><br>
+提取码：k450</p>
+<h1 id="h15">H1.5</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1PU9jL3fKyA-UWG9KKGHVUQ?pwd=k450">https://pan.baidu.com/s/1PU9jL3fKyA-UWG9KKGHVUQ?pwd=k450</a><br>
+提取码：k450</p>
+<h1 id="s10">S1.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1UAHjvp__fCdiBfsnv89Y2w?pwd=k450">https://pan.baidu.com/s/1UAHjvp__fCdiBfsnv89Y2w?pwd=k450</a><br>
+提取码：k450</p>
+<h1 id="h10">H1.0</h1>
+<p>链接：<a href="https://pan.baidu.com/s/1hf1HQ3A75-CEUl_t978t5A?pwd=k450">https://pan.baidu.com/s/1hf1HQ3A75-CEUl_t978t5A?pwd=k450</a><br>
+提取码：k450</p>
+]]></content>
+    </entry>
+</feed>
